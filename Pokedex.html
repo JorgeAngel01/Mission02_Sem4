@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+  <header>
+    <img class="pokedex-screen-image" src="./assets/img/logo.png">
+  </header>
+  
+  <main>
+    <br><br>
+    <section class="pokedex">
+
+        <article class="pokedex-left">
+            <div class="pokedex-lights-container">
+                <div class="pokedex-lights-lg">
+                </div>
+                <div class="pokedex-lights-sm-container">
+                    <div class="pokedex-lights-sm-light one">
+                    </div>
+                    <div class="pokedex-lights-sm-light two">
+                    </div>
+                    <div class="pokedex-lights-sm-light three">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pokedex-screen">
+                
+                <div class="pokedex-screen-top">
+                    <div class="pokedex-screen-light">
+                    </div>
+                    <div class="pokedex-screen-light">
+                    </div>
+                </div>
+                
+                <div class="pokedex-screen-image-container">
+                    <img class="pokedex-screen-image" src="./assets/img/pokeball.png">
+                </div>
+                    
+                <div class="pokedex-screen-bottom">
+                    <div class="pokedex-screen-button">
+                    </div>
+                    <div class="pokedex-screen-vents">
+                        <div class="pokedex-screen-vent">
+                        </div>
+                        <div class="pokedex-screen-vent">
+                        </div>
+                        <div class="pokedex-screen-vent">
+                        </div>
+                        <div class="pokedex-screen-vent">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="pokedex-controls">
+                    <div class="pokedex-controls-button">
+                    </div>
+                    <div class="pokedex-controls-longButton redButton">
+                    </div>
+                    <div class="pokedex-controls-longButton blueButton">
+                    </div>
+            </div>
+              
+            <div class="pokedex-pad">
+                <div class="pokedex-pad-middle">
+                    <div class="pokedex-pad-middle-circle">
+                    </div>
+                </div>
+                <div class="pokedex-pad-v">
+                </div>
+                <div class="pokedex-pad-h">
+                </div>
+            </div>
+              
+            <div class="pokedex-smallScreen">
+            </div>
+
+        </article>
+
+        <article class="pokedex-right">
+            <div class="search-container">
+                <input class="search-box" type="text" placeholder="Enter a Pokemon..."/>
+                <button onclick="runSearch()" class="search-button" >
+                    <i class="material-icons icon search-icon">search</i>
+                </button>
+            </div>
+              
+            <div class="pokedex-info-container">
+                <h2 class="pokemon-name"></h2>
+                <ul class="pokemon-types">
+                </ul>
+                <br>
+                <ul class="pokemon-stats">
+                </ul>
+                <br>
+                <ul class="pokemon-moves">
+                </ul>
+            </div>
+
+        </article>
+    </section>
+  </main>  
+
+</body>
+<footer>
+  <script src="./pokedex.js"></script>
+</footer>
+</html>
